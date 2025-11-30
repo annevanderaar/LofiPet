@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family: "Fredoka", sans-serif;
+}
+
+body {
+    background: #E57313;
+}
