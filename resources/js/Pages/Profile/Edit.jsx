@@ -16,19 +16,19 @@ export default function Edit({ mustVerifyEmail, status }) {
             <Head title="Profile" />
 
             <div className="py-2">
-                <div className="flex justify-center gap-8 flex-wrap">
-                    <div className="bg-white p-4 shadow sm:rounded-lg sm:p-6 max-w-xl">
+                <div className="flex justify-center flex-col items-center">
+                    <div className="bg-white p-4 shadow rounded-lg sm:p-6 max-w-xl m-4">
                         <UpdateProfileInformationForm
                             mustVerifyEmail={mustVerifyEmail}
                             status={status}
                         />
                     </div>
 
-                    <div className="bg-white p-4 shadow sm:rounded-lg sm:p-6 max-w-xl">
+                    <div className="bg-white p-4 shadow rounded-lg sm:p-6 max-w-xl m-4">
                         <UpdatePasswordForm />
                     </div>
 
-                    <div className="bg-white p-4 shadow sm:rounded-lg sm:p-6 max-w-xl">
+                    <div className="bg-white p-4 shadow rounded-lg sm:p-6 max-w-xl m-4">
                         <DeleteUserForm />
                     </div>
                 </div>
