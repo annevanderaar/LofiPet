@@ -4,7 +4,9 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "prod": "vite build",
+        "dev": "vite",
+        "watch": "vite"
     },
     "devDependencies": {
         "@headlessui/react": "^2.0.0",
